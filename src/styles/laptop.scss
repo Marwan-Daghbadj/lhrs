@@ -1,0 +1,73 @@
+* {
+  font-family: "Poppins";
+}
+::selection {
+}
+
+@font-face {
+  font-family: "Kugile";
+  src: url("../assets/fonts/Kugile_Demo.woff") format("woff");
+  font-weight: 200; /* Light */
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../assets/fonts/Poppins-Light.woff") format("woff");
+  font-weight: 200; /* Light */
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../assets/fonts/Poppins-Medium.woff") format("woff");
+  font-weight: 400; /* Normal */
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../assets/fonts/Poppins-Bold.woff") format("woff");
+  font-weight: 600; /* Bold */
+  font-style: normal;
+  font-display: swap;
+}
+
+.s {
+  font-size: 12px;
+}
+.m {
+  font-size: 15px;
+}
+.l {
+  font-size: 18px;
+}
+.xl {
+  font-size: 20px;
+}
+.xxl {
+  font-size: 25px;
+}
+.xxxl {
+  font-size: 30px;
+}
+.Kugile {
+  font-family: "Kugile";
+}
+.nav-bar {
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+  border: solid 1px var(--c1);
+  padding: 10px 30px;
+  border-radius: 50px;
+  background-color: white;
+  a {
+    text-decoration: none;
+    color: black;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+}

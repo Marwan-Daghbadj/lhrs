@@ -1,0 +1,15 @@
+.answers-container {
+  padding: 30px var(--pad-h);
+  padding-bottom: 140px;
+  .section-container {
+    border: solid 1px whitesmoke;
+    padding: 20px;
+    border-radius: 20px;
+  }
+  ol {
+    margin-left: 30px;
+    li {
+      font-size: 15px;
+    }
+  }
+}
