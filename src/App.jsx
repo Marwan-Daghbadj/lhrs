@@ -11,7 +11,7 @@ import Listing from "./Page/Listing";
 import Answers from "./Page/Answers";
 
 export default function App() {
-  let location = useLocation().pathname;
+  let location = useLocation();
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   }, [location]);
