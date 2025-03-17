@@ -6,7 +6,7 @@ import {
   useLocation,
   useNavigate,
 } from "react-router-dom";
-
+import { Analytics } from "@vercel/analytics/react";
 import Listing from "./Page/Listing";
 import Answers from "./Page/Answers";
 
@@ -22,6 +22,7 @@ export default function App() {
         <Route path="/answers" element={<Answers />} />
       </Routes>
       <NavBar />
+      <Analytics />
     </>
   );
 }
